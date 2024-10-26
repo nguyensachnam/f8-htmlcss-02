@@ -411,11 +411,20 @@ a {
     background: #2e2100;
 }
 
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback .feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .feedback-item .avatar {
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
     object-fit: cover;
 }
